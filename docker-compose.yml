@@ -1,0 +1,7 @@
+ version: '3.3'
+ services: 
+  redis:
+    image: redis:6.2.7-bullseye
+    container_name: rl-redis-6    
+    ports:
+      - "6380:6379"    

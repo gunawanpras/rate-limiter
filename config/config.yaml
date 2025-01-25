@@ -1,0 +1,14 @@
+server:
+  port: 8000
+rate_limiter:
+  limit: 3         # Number of requests allowed
+  interval: 10     # Time window in seconds
+cache:
+  host: localhost
+  port: 6380
+  password: 123456
+  db: 0
+  ttl: 30
+  dial_timeout: 15
+  read_timeout: 15
+  write_timeout: 15
